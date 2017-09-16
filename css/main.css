@@ -5,14 +5,20 @@ html {
 
 a {
   display: inline-block;
-  color: #b64c6e;
+  color: #d89fb0;
   text-decoration: none;
   width: 100%;
   border-bottom: 2px solid #d89fb0;
 }
 
+a:hover {
+  color: #b64c6e;
+}
+
 main {
   border-top: 2px solid #e2e2e2;
+
+  border-bottom: 1px solid #e2e2e2;
 }
 
 .btn {
@@ -22,4 +28,10 @@ main {
 
 .btn-ghost {
   background-color: transparent;
+}
+
+.btn:hover {
+  color: #860927;
+  background-color: #d89fb0;
+  border-color: #860927;
 }
