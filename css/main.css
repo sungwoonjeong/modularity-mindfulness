@@ -17,7 +17,6 @@ a:hover {
 
 main {
   border-top: 2px solid #e2e2e2;
-
   border-bottom: 1px solid #e2e2e2;
 }
 
@@ -34,4 +33,8 @@ main {
   color: #860927;
   background-color: #d89fb0;
   border-color: #860927;
+}
+
+footer p {
+  color: #e2e2e2;
 }
