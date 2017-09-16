@@ -10,3 +10,16 @@ a {
   width: 100%;
   border-bottom: 2px solid #d89fb0;
 }
+
+main {
+  border-top: 2px solid #e2e2e2;
+}
+
+.btn {
+  background-color: #d89fb0;
+  border-color: #d89fb0;
+}
+
+.btn-ghost {
+  background-color: transparent;
+}
