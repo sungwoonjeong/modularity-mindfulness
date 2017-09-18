@@ -1,6 +1,5 @@
 html {
   font-family: "Noto Sans", sans-serif;
-  font-family: "Noto Sans Japanese", sans-serif;
 }
 
 a {
@@ -16,11 +15,20 @@ a:hover {
 }
 
 main {
-  border-top: 2px solid #e2e2e2;
   border-bottom: 1px solid #e2e2e2;
 }
 
+.intro {
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.intro p:first-child {
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+
 .btn {
+  border-width: 2px;
   background-color: #d89fb0;
   border-color: #d89fb0;
 }
