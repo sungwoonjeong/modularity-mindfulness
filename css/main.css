@@ -14,13 +14,13 @@ a:hover {
   color: #b64c6e;
 }
 
-main {
-  border-bottom: 1px solid #e2e2e2;
+i {
+  font-family: "Noto Sans Japanese", sans-serif;
 }
 
 .intro {
-  border-top: 1px solid #e2e2e2;
-  border-bottom: 1px solid #e2e2e2;
+  border-top: 1.5px solid #e2e2e2;
+  border-bottom: 1.5px solid #e2e2e2;
 }
 
 .intro p:first-child {
@@ -28,9 +28,11 @@ main {
 }
 
 .btn {
+  color: #d89fb0;
   border-width: 2px;
   background-color: #d89fb0;
   border-color: #d89fb0;
+  display: inline;
 }
 
 .btn-ghost {
@@ -41,6 +43,10 @@ main {
   color: #860927;
   background-color: #d89fb0;
   border-color: #860927;
+}
+
+footer {
+    border-top: 1px solid #e2e2e2;
 }
 
 footer p {
